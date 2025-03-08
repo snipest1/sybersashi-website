@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SyberSashi - Security Consultation</title>
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/RJSSDRn0/DALL-E-2025-03-08-00-20-54-A-chibi-style-anime-samurai-character-with-dark-skin-showing-only-the.webp">
+  </head>
+  <body class="bg-background text-white min-h-screen">
+    <div id="app" class="relative min-h-screen">
+      <!-- Navigation -->
+      <nav class="fixed top-0 left-0 right-0 p-4 z-50 bg-background/95 backdrop-blur-sm border-b border-accent/10">
+        <div class="container mx-auto flex justify-between items-center">
+          <a href="/" class="logo-container">
+            <img src="https://i.postimg.cc/RJSSDRn0/DALL-E-2025-03-08-00-20-54-A-chibi-style-anime-samurai-character-with-dark-skin-showing-only-the.webp" alt="SyberSashi" class="logo-image" />
+            <span class="logo-text">SyberSashi</span>
+          </a>
+          <div class="hidden md:flex space-x-6">
+            <a href="/" class="text-accent">Home</a>
+            <a href="/about.html" class="hover:text-accent transition-colors">About</a>
+            <a href="/services.html" class="hover:text-accent transition-colors">Services</a>
+            <a href="/news.html" class="hover:text-accent transition-colors">News</a>
+            <a href="/community.html" class="hover:text-accent transition-colors">Community</a>
+            <a href="/research.html" class="hover:text-accent transition-colors">R&D</a>
+            <a href="/contact.html" class="hover:text-accent transition-colors">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="relative pt-24">
+        <!-- Circuit Pattern Background -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+          <div id="circuit-pattern" class="absolute inset-0 opacity-20"></div>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="container mx-auto px-4">
+          <div class="max-w-4xl mx-auto text-center">
+            <div class="relative">
+              <div class="absolute -inset-1 bg-gradient-to-r from-accent to-primary opacity-75 blur"></div>
+              <div class="relative bg-background rounded-lg p-8 shadow-xl">
+                <span class="text-accent text-sm font-mono">SECURE</span>
+                <h1 class="text-4xl md:text-6xl font-bold mt-4 mb-6 bg-gradient-to-r from-white to-accent bg-clip-text text-transparent">
+                  Cybersecurity Solutions
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 mb-8">
+                  Protect your digital assets with our expert security consultation services. 
+                  We identify vulnerabilities, strengthen defenses, and ensure your peace of mind.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                  <div class="p-4 bg-background/50 rounded-lg border border-accent/20">
+                    <i data-lucide="shield-check" class="w-8 h-8 mx-auto mb-2 text-accent"></i>
+                    <h3 class="font-semibold">Threat Assessment</h3>
+                  </div>
+                  <div class="p-4 bg-background/50 rounded-lg border border-accent/20">
+                    <i data-lucide="lock" class="w-8 h-8 mx-auto mb-2 text-accent"></i>
+                    <h3 class="font-semibold">Security Audits</h3>
+                  </div>
+                  <div class="p-4 bg-background/50 rounded-lg border border-accent/20">
+                    <i data-lucide="shield" class="w-8 h-8 mx-auto mb-2 text-accent"></i>
+                    <h3 class="font-semibold">Incident Response</h3>
+                  </div>
+                </div>
+                <button class="bg-accent hover:bg-accent/90 text-white px-8 py-3 rounded-lg transition-all transform hover:scale-105">
+                  Get Consultation
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
