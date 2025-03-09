@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SyberSashi - Research & Development</title>
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/RJSSDRn0/DALL-E-2025-03-08-00-20-54-A-chibi-style-anime-samurai-character-with-dark-skin-showing-only-the.webp">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-background text-white min-h-screen">
+    <div id="app" class="relative min-h-screen">
+      <nav class="fixed top-0 left-0 right-0 p-4 z-50 bg-background/95 backdrop-blur-sm border-b border-accent/10">
+        <div class="container mx-auto flex justify-between items-center">
+          <a href="/" class="logo-container">
+            <img src="https://i.postimg.cc/RJSSDRn0/DALL-E-2025-03-08-00-20-54-A-chibi-style-anime-samurai-character-with-dark-skin-showing-only-the.webp" alt="SyberSashi" class="logo-image" />
+            <span class="logo-text">SyberSashi</span>
+          </a>
+          <div class="hidden md:flex space-x-6">
+            <a href="/" class="hover:text-accent transition-colors">Home</a>
+            <a href="/about.html" class="hover:text-accent transition-colors">About</a>
+            <a href="/services.html" class="hover:text-accent transition-colors">Services</a>
+            <a href="/news.html" class="hover:text-accent transition-colors">News</a>
+            <a href="/community.html" class="hover:text-accent transition-colors">Community</a>
+            <a href="/research.html" class="text-accent">R&D</a>
+            <a href="/contact.html" class="hover:text-accent transition-colors">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <main class="relative pt-24">
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+          <div id="circuit-pattern" class="absolute inset-0 opacity-20"></div>
+        </div>
+
+        <div class="container mx-auto px-4">
+          <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold mb-8 text-center">Research & Development</h1>
+            
+            <div class="grid gap-8">
+              <div class="bg-background/50 p-6 rounded-lg border border-accent/20">
+                <div class="flex items-center gap-4 mb-6">
+                  <i data-lucide="microscope" class="w-8 h-8 text-accent"></i>
+                  <h2 class="text-2xl font-semibold">Current Research Projects</h2>
+                </div>
+                <div class="grid gap-4">
+                  <div class="p-4 bg-background/30 rounded-lg">
+                    <h3 class="font-semibold mb-2">AI-Powered Threat Detection</h3>
+                    <p class="text-gray-300">Developing next-generation security systems using machine learning.</p>
+                  </div>
+                  <div class="p-4 bg-background/30 rounded-lg">
+                    <h3 class="font-semibold mb-2">Quantum-Safe Cryptography</h3>
+                    <p class="text-gray-300">Preparing for the post-quantum era with advanced encryption methods.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-background/50 p-6 rounded-lg border border-accent/20">
+                <div class="flex items-center gap-4 mb-6">
+                  <i data-lucide="book-open" class="w-8 h-8 text-accent"></i>
+                  <h2 class="text-2xl font-semibold">Latest Publications</h2>
+                </div>
+                <div class="space-y-4">
+                  <div class="flex items-start gap-4">
+                    <div class="bg-accent/10 p-2 rounded">
+                      <i data-lucide="file-text" class="w-6 h-6 text-accent"></i>
+                    </div>
+                    <div>
+                      <h3 class="font-semibold">Advanced Threat Detection Methodologies</h3>
+                      <p class="text-sm text-gray-400">Published: March 2025</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <div class="bg-accent/10 p-2 rounded">
+                      <i data-lucide="file-text" class="w-6 h-6 text-accent"></i>
+                    </div>
+                    <div>
+                      <h3 class="font-semibold">Zero-Trust Architecture Implementation Guide</h3>
+                      <p class="text-sm text-gray-400">Published: February 2025</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
