@@ -1,5 +1,5 @@
 import './style.css'
-import { Captions as icons } from 'lucide'
+import * as lucideIcons from 'lucide-static'
 
 // Initialize Lucide icons
 document.addEventListener('DOMContentLoaded', () => {
@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const lucideIcons = document.querySelectorAll('[data-lucide]')
   lucideIcons.forEach(element => {
     const iconName = element.getAttribute('data-lucide')
-    if (iconName && icons[iconName]) {
-      element.innerHTML = icons[iconName].toSvg()
+    if (iconName && lucideIcons[iconName]) {
+      element.innerHTML = lucideIcons[iconName]
     }
   })
 

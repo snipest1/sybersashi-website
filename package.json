@@ -1,5 +1,5 @@
 {
-  "name": "crypto-landing-page",
+  "name": "sybersashi-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,6 +15,7 @@
     "autoprefixer": "^10.4.17"
   },
   "dependencies": {
-    "lucide": "^0.344.0"
+    "lucide": "^0.344.0",
+    "lucide-static": "^0.344.0"
   }
 }
