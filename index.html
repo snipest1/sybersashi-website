@@ -9,18 +9,30 @@
   </head>
   <body class="bg-background text-white min-h-screen">
     <div id="app" class="relative min-h-screen">
+
+
+      <!-- Navigation -->
+
+
+
       <nav class="fixed top-0 left-0 right-0 p-4 z-50 bg-background/95 backdrop-blur-sm border-b border-accent/10">
         <div class="container mx-auto flex justify-between items-center">
           <a href="/" class="logo-container">
             <img src="https://i.postimg.cc/RJSSDRn0/DALL-E-2025-03-08-00-20-54-A-chibi-style-anime-samurai-character-with-dark-skin-showing-only-the.webp" alt="SyberSashi" class="logo-image" />
             <span class="logo-text">SyberSashi</span>
           </a>
+
+
+          <div class="hidden md:flex space-x-6">
+
+
           <button class="hamburger">
             <span></span>
             <span></span>
             <span></span>
           </button>
           <div class="hidden md:flex space-x-6 desktop-menu">
+
             <a href="/" class="text-accent">Home</a>
             <a href="/about.html" class="hover:text-accent transition-colors">About</a>
             <a href="/services.html" class="hover:text-accent transition-colors">Services</a>
@@ -30,6 +42,23 @@
             <a href="/contact.html" class="hover:text-accent transition-colors">Contact</a>
           </div>
         </div>
+
+        <div class="mobile-menu">
+          <a href="/" class="active">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/services.html">Services</a>
+          <a href="/news.html">News</a>
+          <a href="/community.html">Community</a>
+          <a href="/research.html">R&D</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+
+      </nav>
+
+      <main class="relative pt-24">
+
+        <!-- Circuit Pattern Background -->
+
         <div class="mobile-menu">
           <a href="/" class="active">Home</a>
           <a href="/about.html">About</a>
@@ -42,9 +71,17 @@
       </nav>
 
       <main class="relative pt-24">
+
+
         <div class="absolute inset-0 overflow-hidden pointer-events-none">
           <div id="circuit-pattern" class="absolute inset-0 opacity-20"></div>
         </div>
+
+
+
+        <!-- Hero Section -->
+
+
 
         <div class="container mx-auto px-4">
           <div class="max-w-4xl mx-auto text-center">

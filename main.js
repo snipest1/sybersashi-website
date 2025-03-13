@@ -12,6 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 430e32a (Resolved merge conflicts in About page and other files)
   // Mobile menu functionality
   const hamburger = document.querySelector('.hamburger')
   const mobileMenu = document.querySelector('.mobile-menu')
@@ -23,6 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 640039a (Fixed Contact Page)
+>>>>>>> 430e32a (Resolved merge conflicts in About page and other files)
   // Add loaded class to body for initial fade in
   document.body.classList.add('loaded')
 

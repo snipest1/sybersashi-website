@@ -54,6 +54,11 @@ body.loaded {
   letter-spacing: -0.5px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 430e32a (Resolved merge conflicts in About page and other files)
 /* Mobile menu styles */
 .mobile-menu {
   display: none;
@@ -137,6 +142,10 @@ body.loaded {
   }
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 640039a (Fixed Contact Page)
+>>>>>>> 430e32a (Resolved merge conflicts in About page and other files)
 .glow {
   animation: glow 2s ease-in-out infinite alternate;
 }

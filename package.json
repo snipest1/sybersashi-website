@@ -6,18 +6,38 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    "preview": "vite preview"
+=======
+>>>>>>> 430e32a (Resolved merge conflicts in About page and other files)
     "preview": "vite preview",
     "create-zip": "node create-zip.js",
     "serve": "node serve.js",
     "build-and-serve": "npm run build && npm run create-zip && npm run serve"
+<<<<<<< HEAD
+=======
+>>>>>>> 640039a (Fixed Contact Page)
+>>>>>>> 430e32a (Resolved merge conflicts in About page and other files)
   },
   "devDependencies": {
     "vite": "^5.4.2",
     "tailwindcss": "^3.4.1",
     "postcss": "^8.4.35",
+<<<<<<< HEAD
     "autoprefixer": "^10.4.17",
     "archiver": "^6.0.1",
     "express": "^4.18.3"
+=======
+<<<<<<< HEAD
+    "autoprefixer": "^10.4.17"
+=======
+    "autoprefixer": "^10.4.17",
+    "archiver": "^6.0.1",
+    "express": "^4.18.3"
+>>>>>>> 640039a (Fixed Contact Page)
+>>>>>>> 430e32a (Resolved merge conflicts in About page and other files)
   },
   "dependencies": {
     "lucide": "^0.344.0",
