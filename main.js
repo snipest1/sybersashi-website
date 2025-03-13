@@ -12,6 +12,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })
 
+<<<<<<< HEAD
+=======
+  // Mobile menu functionality
+  const hamburger = document.querySelector('.hamburger')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  
+  if (hamburger && mobileMenu) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active')
+      mobileMenu.classList.toggle('active')
+    })
+  }
+
+>>>>>>> 640039a (Fixed Contact Page)
   // Add loaded class to body for initial fade in
   document.body.classList.add('loaded')
 
