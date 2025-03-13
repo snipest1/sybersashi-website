@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SyberSashi - About Us</title>
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/RJSSDRn0/DALL-E-2025-03-08-00-20-54-A-chibi-style-anime-samurai-character-with-dark-skin-showing-only-the.webp">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-background text-white min-h-screen">
+    <div id="app" class="relative min-h-screen">
+      <nav class="fixed top-0 left-0 right-0 p-4 z-50 bg-background/95 backdrop-blur-sm border-b border-accent/10">
+        <div class="container mx-auto flex justify-between items-center">
+          <a href="/" class="logo-container">
+            <img src="https://i.postimg.cc/RJSSDRn0/DALL-E-2025-03-08-00-20-54-A-chibi-style-anime-samurai-character-with-dark-skin-showing-only-the.webp" alt="SyberSashi" class="logo-image" />
+            <span class="logo-text">SyberSashi</span>
+          </a>
+          <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="hidden md:flex space-x-6 desktop-menu">
+            <a href="/" class="hover:text-accent transition-colors">Home</a>
+            <a href="/about.html" class="text-accent">About</a>
+            <a href="/services.html" class="hover:text-accent transition-colors">Services</a>
+            <a href="/news.html" class="hover:text-accent transition-colors">News</a>
+            <a href="/community.html" class="hover:text-accent transition-colors">Community</a>
+            <a href="/research.html" class="hover:text-accent transition-colors">R&D</a>
+            <a href="/contact.html" class="hover:text-accent transition-colors">Contact</a>
+          </div>
+        </div>
+        <div class="mobile-menu">
+          <a href="/">Home</a>
+          <a href="/about.html" class="active">About</a>
+          <a href="/services.html">Services</a>
+          <a href="/news.html">News</a>
+          <a href="/community.html">Community</a>
+          <a href="/research.html">R&D</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+      </nav>
+
+      <main class="relative pt-24">
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+          <div id="circuit-pattern" class="absolute inset-0 opacity-20"></div>
+        </div>
+
+        <div class="container mx-auto px-4">
+          <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold mb-8 text-center">About SyberSashi</h1>
+            
+            <div class="bg-background/50 p-8 rounded-lg border border-accent/20 mb-8">
+              <h2 class="text-2xl font-semibold mb-4">Our Mission</h2>
+              <p class="text-gray-300 mb-6">
+                At SyberSashi, we're dedicated to protecting organizations from evolving cyber threats through innovative security solutions and expert consultation. Our mission is to create a safer digital world for businesses and individuals alike.
+              </p>
+              <div class="grid md:grid-cols-3 gap-6">
+                <div class="text-center">
+                  <div class="bg-accent/10 p-4 rounded-lg mb-3">
+                    <i data-lucide="shield" class="w-8 h-8 mx-auto text-accent"></i>
+                  </div>
+                  <h3 class="font-semibold mb-2">Protection</h3>
+                  <p class="text-sm text-gray-300">Advanced security measures for modern threats</p>
+                </div>
+                <div class="text-center">
+                  <div class="bg-accent/10 p-4 rounded-lg mb-3">
+                    <i data-lucide="users" class="w-8 h-8 mx-auto text-accent"></i>
+                  </div>
+                  <h3 class="font-semibold mb-2">Expertise</h3>
+                  <p class="text-sm text-gray-300">Industry-leading security professionals</p>
+                </div>
+                <div class="text-center">
+                  <div class="bg-accent/10 p-4 rounded-lg mb-3">
+                    <i data-lucide="trending-up" class="w-8 h-8 mx-auto text-accent"></i>
+                  </div>
+                  <h3 class="font-semibold mb-2">Innovation</h3>
+                  <p class="text-sm text-gray-300">Cutting-edge security solutions</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-background/50 p-8 rounded-lg border border-accent/20">
+              <h2 class="text-2xl font-semibold mb-6">Our Leadership</h2>
+              <div class="flex justify-center">
+                <div class="text-center">
+                  <div class="w-32 h-32 mx-auto mb-4 rounded-full bg-accent/10 flex items-center justify-center">
+                    <i data-lucide="user" class="w-16 h-16 text-accent"></i>
+                  </div>
+                  <h3 class="text-xl font-semibold">Tim Snipes</h3>
+                  <p class="text-sm text-gray-400">Founder, Chief Executive Officer & Chief Cyber Officer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
